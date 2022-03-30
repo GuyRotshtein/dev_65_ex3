@@ -1,0 +1,231 @@
+/* General purpose CSS for all layouts */
+* {
+    text-decoration: none;
+    margin: 0px;
+    background-color:#181818;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #ffcdd2;
+}
+
+a:hover{
+    font-weight: 800;
+    opacity: 1;
+    color: black;
+    background-color: #f8c0c4;
+}
+
+.selected{
+    font-weight: 800;
+    color: white;
+    background-color: #b94a48;
+}
+
+.selected:hover{
+    opacity: 1;
+    color: white;
+    background-color: #b94a48;
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    background-color: #212121;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 121px;
+    width: 100%;
+    background-color: #d6d6d6;
+}
+
+a .diamond{
+    position: absolute;
+    top: 28px;
+    left: 26px;
+    height: 50px;
+    width: 91px;
+    background:none;
+}
+
+.genericBox_338{
+    display: block;
+    height: 338px;
+    width: 338px;
+    background-color: #517a8d;
+}
+
+/* Layout 1 specific CSS */
+#firstWrap {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: 0px auto;
+    background-color: #212121;
+    display: block;
+}
+
+#firstWrap header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 388px;
+    width: 100%;
+    background-color: #517a8d;
+}
+#firstWrap header nav{
+    position: absolute;
+    top: 331px;
+    right: 1px;
+    height: 57px;
+    width: 726px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#firstWrap header nav a{
+    height: 57px;
+    width: 242px;
+}
+#firstWrap main{
+    top: 388px;
+    left: 0px;
+    height:491px;
+}
+#flat_box{
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 28px;
+    height: 33px;
+    width: 93px;
+    background-color: #517a8d;
+}
+
+
+#layout1_flexBox{
+    position: absolute;
+    margin-top: 31px;
+    right: 30px;
+    height: 389px;
+    width: 698px;
+    background: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 25px;
+}
+
+#layout1_tallBox{
+    display: block;
+    height: 389px;
+    width: 335px;
+    background-color: #517a8d;
+}
+
+/* Layout 2 specific CSS */
+#secondWrap{
+    position: relative;
+    width: 1400px;
+    height: 2000px;
+    margin: 0px auto;
+    background-color: #212121;
+    display: block;
+}
+
+#secondWrap header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 192px;
+    width: 100%;
+    background-color: #212121;
+}
+
+#secondWrap main{
+    top: 192px;
+    left: 0px;
+    height:1687px;
+}
+
+#secondWrap main nav{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 1687px;
+    width: 243px;
+    flex-wrap: wrap;
+    background-color: #ffcdd2;
+    gap: 0px 0px;
+}
+
+#secondWrap main nav a{
+    height: 135px;
+    width: 243px;
+}
+
+#secondWrap main #topWrap{
+    position: absolute;
+    left: 273px;
+    height: 338px;
+    width: 706px;
+    display: flex;
+    gap: 0px 30px;
+    background: #212121;
+}
+
+#secondWrap main #middleWrap{
+    position: absolute;
+    top: 458px;
+    left: 273px;
+    height: 706px;
+    width: 338px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 0px;
+    background: #212121;
+}
+
+#secondWrap main #loneBox{
+    position: absolute;
+    top: 675px;
+    left: 641px;
+
+}
+
+#secondWrap main #rightCollum{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height:1687px;
+    width: 339px;
+    background-color: #ffcdd2;
+}
+
+#topBox{
+    position: absolute;
+    top: 66px;
+    left: 170px;
+    height: 338px;
+    width: 128px;
+    background-color: #c0d0e5;
+}
+
+#bottomBox{
+    position: absolute;
+    bottom: 34px;
+    left: 106px;
+    height: 125px;
+    width: 128px;
+    background-color: #c0d0e5;
+}
